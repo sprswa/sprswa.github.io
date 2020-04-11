@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>Harvey&apos;s Blog</title>
-    <updated>2020-02-17T03:19:00.956Z</updated>
+    <updated>2020-04-11T13:51:04.417Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://sprswa.github.io/images/avatar.png</logo>
     <icon>https://sprswa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Harvey&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[解决Zotero或者PaperShip绑定坚果云WebDAV时，出现验证失败的问题]]></title>
+        <id>https://sprswa.github.io/post/jie-jue-zotero-huo-zhe-papership-bang-ding-jian-guo-yun-webdav-shi-chu-xian-yan-zheng-shi-bai-de-wen-ti/</id>
+        <link href="https://sprswa.github.io/post/jie-jue-zotero-huo-zhe-papership-bang-ding-jian-guo-yun-webdav-shi-chu-xian-yan-zheng-shi-bai-de-wen-ti/">
+        </link>
+        <updated>2020-04-11T13:47:50.000Z</updated>
+        <content type="html"><![CDATA[<p>解决办法是：<br>
+打开坚果云官网，登录坚果云账号，在zotero文件夹下新建空白的lastsync.txt文件。<br>
+务必注意的是，必须使用坚果云自带的新建文本文档工具来建立lastsync.txt文件，不能通过手动上传的方式。</p>
+<p>参考：https://mp.weixin.qq.com/s/b2kuoqPqEYOGb9i_cvFa4Q</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[尝试使用Gridea写博客]]></title>
         <id>https://sprswa.github.io/post/chang-shi-shi-yong-gridea-xie-bo-ke/</id>
