@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>Harvey&apos;s Blog</title>
-    <updated>2020-04-11T14:09:44.362Z</updated>
+    <updated>2020-04-11T14:13:14.115Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -21,6 +21,7 @@
 打开坚果云官网，登录坚果云账号，在zotero文件夹下新建空白的lastsync.txt文件。<br>
 务必注意的是，必须使用坚果云自带的新建文本文档工具来建立lastsync.txt文件，不能通过手动上传的方式。</p>
 <p><a href="https://mp.weixin.qq.com/s/b2kuoqPqEYOGb9i_cvFa4Q">参考文章</a></p>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200411215949.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
@@ -33,7 +34,6 @@
 网站：https://gridea.dev/</p>
 <figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200217105447.jpg" alt="" loading="lazy"></figure>
 <figure data-type="image" tabindex="2"><img src="https://sprswa.github.io/post-images/1581908232827.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="3"><img src="https://github.com/sprswa/PicGo/blob/master/img/20200217105447.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
