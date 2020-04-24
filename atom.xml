@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>C言C语</title>
-    <updated>2020-04-24T08:20:20.148Z</updated>
+    <updated>2020-04-24T09:19:26.381Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://sprswa.github.io/images/avatar.png</logo>
     <icon>https://sprswa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C言C语</rights>
+    <entry>
+        <title type="html"><![CDATA[使用BeyondPlayer + YouTube学英语]]></title>
+        <id>https://sprswa.github.io/post/shi-yong-beyondplayer-youtube-xue-ying-yu/</id>
+        <link href="https://sprswa.github.io/post/shi-yong-beyondplayer-youtube-xue-ying-yu/">
+        </link>
+        <updated>2020-04-24T09:13:34.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>使用<a href="https://circleapps.co/">BeyondPlayer</a>看带字幕的英文视频，可方便的使用系统的字典查询生词。</li>
+<li>使用Downie 4 下载YouTube中喜欢的英文视频和字幕。</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《柯林斯双解》for macOS]]></title>
         <id>https://sprswa.github.io/post/lesslesske-lin-si-shuang-jie-greatergreater-for-macos/</id>
