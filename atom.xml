@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>C言C语</title>
-    <updated>2020-04-24T07:34:32.418Z</updated>
+    <updated>2020-04-24T08:17:51.699Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -11,13 +11,14 @@
     <icon>https://sprswa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C言C语</rights>
     <entry>
-        <title type="html"><![CDATA[一个可用的Gfwlist]]></title>
-        <id>https://sprswa.github.io/post/yi-ge-ke-yong-de-gfwlist/</id>
-        <link href="https://sprswa.github.io/post/yi-ge-ke-yong-de-gfwlist/">
+        <title type="html"><![CDATA[《柯林斯双解》for macOS]]></title>
+        <id>https://sprswa.github.io/post/lesslesske-lin-si-shuang-jie-greatergreater-for-macos/</id>
+        <link href="https://sprswa.github.io/post/lesslesske-lin-si-shuang-jie-greatergreater-for-macos/">
         </link>
-        <updated>2020-04-24T07:32:14.000Z</updated>
-        <content type="html"><![CDATA[<p>在小火箭高级设置里修改：https://raw.githubusercontent.com/Loukky/gfwlist-by-loukky/master/gfwlist.txt</p>
-<p><a href="https://loukky.com/archives/861">参考网页</a></p>
+        <updated>2020-04-24T08:15:11.000Z</updated>
+        <content type="html"><![CDATA[<p>一本mac自带词典可用的《柯林斯双解》词典。</p>
+<p><a href="https://onedrive.live.com/?id=AA6EDBB0266FF077%21128&amp;cid=AA6EDBB0266FF077">下载地址</a></p>
+<p><a href="https://placeless.net/blog/macos-dictionaries">参考网址</a></p>
 ]]></content>
     </entry>
     <entry>
