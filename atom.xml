@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>C言C语</title>
-    <updated>2020-04-20T13:52:04.565Z</updated>
+    <updated>2020-04-24T07:34:32.418Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://sprswa.github.io/images/avatar.png</logo>
     <icon>https://sprswa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C言C语</rights>
+    <entry>
+        <title type="html"><![CDATA[一个可用的Gfwlist]]></title>
+        <id>https://sprswa.github.io/post/yi-ge-ke-yong-de-gfwlist/</id>
+        <link href="https://sprswa.github.io/post/yi-ge-ke-yong-de-gfwlist/">
+        </link>
+        <updated>2020-04-24T07:32:14.000Z</updated>
+        <content type="html"><![CDATA[<p>在小火箭高级设置里修改：https://raw.githubusercontent.com/Loukky/gfwlist-by-loukky/master/gfwlist.txt</p>
+<p><a href="https://loukky.com/archives/861">参考网页</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[英语长难句24字口诀]]></title>
         <id>https://sprswa.github.io/post/ying-yu-chang-nan-ju-24-zi-kou-jue/</id>
