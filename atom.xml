@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>C言C语</title>
-    <updated>2020-04-24T09:20:21.911Z</updated>
+    <updated>2020-04-26T00:47:20.661Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://sprswa.github.io/images/avatar.png</logo>
     <icon>https://sprswa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C言C语</rights>
+    <entry>
+        <title type="html"><![CDATA[使用鼠须管。]]></title>
+        <id>https://sprswa.github.io/post/shi-yong-shu-xu-guan/</id>
+        <link href="https://sprswa.github.io/post/shi-yong-shu-xu-guan/">
+        </link>
+        <updated>2020-04-26T00:43:38.000Z</updated>
+        <content type="html"><![CDATA[<p>按照下面方法配置：<a href="https://github.com/loaden/rime">鼠须管</a></p>
+<h2 id="功能用法与配置说明">功能用法与配置说明</h2>
+<ul>
+<li>Control+<code>或 Control+Shift+</code> 或 Control+0 或 F4 实现输入法及功能切换</li>
+<li>Shift 键临时切换到英文输入，再次按下Shift键返回到中文输入</li>
+<li>逗号、句号前后翻页，兼容减号、加号前后翻页</li>
+<li>分号、单引号选择第二、第三候选字/词</li>
+<li>Control+, 实现“半角/全角”切换，Control+.　实现“.,/。，”切换</li>
+<li>支持斜杠开头的特殊符号输入，例如/sx输入数学符号，详情请参考symbols.yaml</li>
+<li>支持五笔、五笔拼音、五笔简入繁出，五笔z键可临时切换到拼音</li>
+<li>五笔支持扩展词库，用户可自行编辑wubi86_extended.dict.yaml</li>
+<li>输入法界面字符完全采用简体中文，拼音默认输出简体</li>
+<li>所有从官方拷贝的词库、配置都不做任何修改，原汁原味，方便升级</li>
+<li>编辑default.custom.yaml修改RIME功能配置，重新部署生效</li>
+</ul>
+<h2 id="输出系统时间和日期">输出系统时间和日期</h2>
+<ul>
+<li>date 输出日期，格式 2019年06月19日</li>
+<li>time 输出时间，格式 10:00</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用BeyondPlayer + YouTube学英语]]></title>
         <id>https://sprswa.github.io/post/shi-yong-beyondplayer-youtube-xue-ying-yu/</id>
