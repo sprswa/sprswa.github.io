@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>我的写作流程 | C言C语</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://sprswa.github.io/favicon.ico?v=1588650696944">
+<link rel="stylesheet" href="https://sprswa.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="文献管理：Zotero
+写作工具：Scrivener (使用Markdown格式写作)
+格式转换工具：Pandoc、DocDown
+参考文献：My workflow for transforming academic Markdown in..." />
+    <meta name="keywords" content="写作,Zotero,Markdown" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://sprswa.github.io">
+        <img src="https://sprswa.github.io/images/avatar.png?v=1588650696944" class="site-logo">
+        <h1 class="site-title">C言C语</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      记录学习中的点滴
+    </div>
+    <div class="site-footer">
+      Powered by Harvey | <a class="rss" href="https://sprswa.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">我的写作流程</h2>
+            <div class="post-date">2020-05-05</div>
+            
+            <div class="post-content" v-pre>
+              <p>文献管理：Zotero</p>
+<p>写作工具：Scrivener (使用Markdown格式写作)</p>
+<p>格式转换工具：Pandoc、DocDown</p>
+<p>参考文献：<a href="https://raphaelkabo.com/blog/posts/markdown-to-word/">My workflow for transforming academic Markdown into beautiful Word documents</a></p>
+<p>​					<a href="https://raphaelkabo.com/blog/posts/introducing-docdown/">Introducing DocDown, the easy way to turn academic Markdown into Word documents</a></p>
+<h2 id="基本流程">基本流程</h2>
+<h3 id="第一部分在文本编辑软件中插入引用">第一部分：在文本编辑软件中插入引用。</h3>
+<ol>
+<li>
+<p>下载和安装<a href="https://www.zotero.org/">Zotero</a>。Zotero的使用方法，另外撰文归纳。</p>
+</li>
+<li>
+<p>安装Zotero的插件 <a href="https://github.com/retorquere/zotero-better-bibtex">Zotero Better BibTeX</a>，用于在文本编辑器中插入引用。</p>
+<blockquote>
+<p>在插入引用时要把输入法切换成英文输入。</p>
+</blockquote>
+</li>
+<li>
+<p>修改Citation keys的格式：打开Zotero的“首选项-Better BibTeX-Citation keys”， 修改格式如下：</p>
+<img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200504224440.png" style="zoom: 50%;" />
+<p>修改后，插入引文后，显示的格式为：<em>liu2020</em></p>
+</li>
+<li>
+<p>在Zotero打开“文件-导出文献库...”，选择如下，不用选择任何选项。导出文件可以任意名称和存放位置。目前文件名是“My Library”，存放地点是“/Users/harvey/OneDrive/papers/Zotero/My Library.bib”。</p>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200504225319.png" alt="" loading="lazy"></figure>
+</li>
+<li>
+<p>Now go back to <strong>Preferences - Better BibTeX</strong>. Go to the <strong>Automatic Export</strong> tab. You’ll see your Better BibLaTeX library. I changed the <strong>Automatic export</strong> option here to <strong>On change</strong>, which means it’ll update my library as soon as I change or add anything to Zotero, but you can keep yours however you want. This finishes the Zotero section of the referencing system.</p>
+</li>
+<li>
+<p>下载 <a href="https://github.com/davepwsmith/zotpick-applescript">zotpick-applescript</a>，使用软件BBEdit打开文件，复制文件内容。这个代码可以是你在任何文本编辑软件（如Scrivener）里插入引文。代码内容（49行）如下：</p>
+<pre><code># App to keystroke citations from Zotero into Scrivener
+
+# Set a delay between keystrokes for OS Sienna bug
+set keyDelay to 0.01
+
+tell application &quot;System Events&quot;
+	try
+		-- Have to hardcode Scrivener here because it seems to make the script the frontmost app
+		set appName to &quot;Scrivener&quot;
+	on error errMsg
+		display alert &quot;Problem&quot; message &quot;Could not get the name of the frontmost application.&quot;
+		error number -128
+	end try
+end tell
+
+set zotRunning to do shell script &quot;/usr/bin/curl 'http://127.0.0.1:23119/better-bibtex/cayw?probe=probe' 2&gt;/dev/null; exit 0&quot;
+if zotRunning is &quot;ready&quot; then
+	set theReference to do shell script &quot;/usr/bin/curl 'http://127.0.0.1:23119/better-bibtex/cayw?format=pandoc' 2&gt;/dev/null; exit 0&quot;
+	try
+		repeat until application appName is frontmost
+			tell application appName to activate
+		end repeat
+	on error errMsg
+		display alert errMsg
+	end try
+	tell application &quot;System Events&quot;
+		try
+			repeat with letter in theReference
+				keystroke letter
+				delay keyDelay
+			end repeat
+		on error errMsg
+			display alert errMsg
+		end try
+	end tell
+else
+	if zotRunning is &quot;&quot; then
+		set alertTitle to &quot;Zotero not running&quot;
+		set alertMessage to &quot;This script will not work unless Zotero is running. Please launch Zotero and try again.&quot;
+	else if zotRunning is &quot;No endpoint found&quot; then
+		set alertTitle to &quot;Better BibTeX not installed&quot;
+		set alertMessage to &quot;This script will not work unless Better BibTeX is installed. Please make sure that Better BibTeX is installed in the running instance of Zotero.&quot;
+	end if
+	display alert alertTitle message alertMessage
+	tell application appName
+		activate
+	end tell
+	error number -128
+end if
+</code></pre>
+</li>
+<li>
+<p>在Mac应用程序中打开“自动操作”程序，新建“快速操作”（⚙️），At the top, select no input in any application. Then drag the ‘Run AppleScript’ module from the left sidebar into the main window. Replace everything in the text box with the contents of the ‘zotpick-pandoc.applescript’ you copied. Save your new service! 保存为Zotpick。</p>
+</li>
+<li>
+<p>修改Zotero的引用快捷键为：<strong>⌘-`</strong>。</p>
+<img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200504231520.png" style="zoom:67%;" />
+</li>
+<li>
+<p>经过6-8步骤后，在撰写文章需要引用时，按快捷键：<strong>⌘-`</strong>，调出Zotero的搜索框，若要搜索中文文献切换到“经典视图”，</p>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200504232130.png" alt="" loading="lazy"></figure>
+<p>另外插入中文引用时，需要把输入法切换成英文。</p>
+</li>
+</ol>
+<h3 id="第二部分-将markdown格式转换成word格式">第二部分 将Markdown格式转换成Word格式</h3>
+<p>以上步骤解决了引用的问题。下面解决转换问题</p>
+<ol start="10">
+<li>
+<p>下载安装 <a href="http://pandoc.org/">Pandoc</a>。</p>
+</li>
+<li>
+<p>下载安装最新版的 <a href="https://github.com/lowercasename/docdown">DocDown</a>。可使用该软件将markdwon格式文件安装需要的格式转换成Word文档。</p>
+<figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200504233059.png" alt="" loading="lazy"></figure>
+</li>
+</ol>
+<h3 id="第三部分-使用scrivener撰写文章">第三部分 使用Scrivener撰写文章</h3>
+<p>使用Scrivener撰写文章，在需要的地方使用快捷键 **⌘-`**插入引文。也可以使用Scrivener整理引用的文献内容，具体可以参考<a href="https://daily.jstor.org/how-to-use-zotero-and-scrivener-for-research-driven-writing/?utm_campaign=generalmarketing&amp;utm_content=twitter&amp;utm_medium=social&amp;utm_source=Twitter">这篇文章</a>。文章撰写完成后，编译为“Basic MultiMarkdown”格式，然后使用DocDown软件转换为Word文档。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://sprswa.github.io/tag/P_cr-mJ7_/" class="tag">
+                    写作
+                  </a>
+                
+                  <a href="https://sprswa.github.io/tag/KW_-doENtO/" class="tag">
+                    Zotero
+                  </a>
+                
+                  <a href="https://sprswa.github.io/tag/I8FbFkx7Dm/" class="tag">
+                    Markdown
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://sprswa.github.io/post/shi-yong-shu-xu-guan/">
+                  <h3 class="post-title">
+                    使用鼠须管。
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
