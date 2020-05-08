@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>C言C语</title>
-    <updated>2020-05-05T03:54:29.580Z</updated>
+    <updated>2020-05-08T14:06:35.068Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://sprswa.github.io/images/avatar.png</logo>
     <icon>https://sprswa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C言C语</rights>
+    <entry>
+        <title type="html"><![CDATA[使用EDGE扩展程序看YouTube视频]]></title>
+        <id>https://sprswa.github.io/post/shi-yong-edge-kuo-zhan-cheng-xu-kan-youtube-shi-pin/</id>
+        <link href="https://sprswa.github.io/post/shi-yong-edge-kuo-zhan-cheng-xu-kan-youtube-shi-pin/">
+        </link>
+        <updated>2020-05-08T14:03:29.000Z</updated>
+        <content type="html"><![CDATA[<p>该扩展名称是：<a href="https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb/related">Language Learning with Youtube BETA</a>。</p>
+<p><a href="https://languagelearningwithnetflix.com/youtube_instructions.html#">官网</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我的写作流程]]></title>
         <id>https://sprswa.github.io/post/wo-de-xie-zuo-liu-cheng/</id>
