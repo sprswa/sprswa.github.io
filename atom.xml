@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>C言C语</title>
-    <updated>2020-05-08T14:16:25.718Z</updated>
+    <updated>2020-05-09T00:54:18.223Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://sprswa.github.io/images/avatar.png</logo>
     <icon>https://sprswa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, C言C语</rights>
+    <entry>
+        <title type="html"><![CDATA[解决看英文YouTube视频时的生词问题]]></title>
+        <id>https://sprswa.github.io/post/jie-jue-kan-ying-wen-youtube-shi-pin-shi-de-sheng-ci-wen-ti/</id>
+        <link href="https://sprswa.github.io/post/jie-jue-kan-ying-wen-youtube-shi-pin-shi-de-sheng-ci-wen-ti/">
+        </link>
+        <updated>2020-05-09T00:47:07.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="方法一">方法一：</h3>
+<p>使用<a href="https://circleapps.co/">BeyondPlayer</a>看带字幕的英文视频，可方便的使用系统的字典查询生词。可使用Downie 4 下载YouTube中喜欢的英文视频和字幕。当然这种方法也可以用来看带字幕文件的美剧，解决生词问题。</p>
+<h3 id="方法二">方法二：</h3>
+<p>使用EDGE扩展程序，该扩展名称是：<a href="https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb/related">Language Learning with Youtube BETA</a>。<br>
+<a href="https://languagelearningwithnetflix.com/youtube_instructions.html#">官网</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用EDGE扩展程序看YouTube视频]]></title>
         <id>https://sprswa.github.io/post/shi-yong-edge-kuo-zhan-cheng-xu-kan-youtube-shi-pin/</id>
