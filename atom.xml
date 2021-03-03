@@ -2,14 +2,119 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>C言C语</title>
-    <updated>2020-05-13T12:40:35.030Z</updated>
+    <updated>2021-03-03T03:35:57.138Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
     <subtitle>记录学习中的点滴</subtitle>
     <logo>https://sprswa.github.io/images/avatar.png</logo>
     <icon>https://sprswa.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, C言C语</rights>
+    <rights>All rights reserved 2021, C言C语</rights>
+    <entry>
+        <title type="html"><![CDATA[使用Scrivener写作时文献引用办法]]></title>
+        <id>https://sprswa.github.io/post/shi-yong-scrivener-xie-zuo-shi-wen-xian-yin-yong-ban-fa/</id>
+        <link href="https://sprswa.github.io/post/shi-yong-scrivener-xie-zuo-shi-wen-xian-yin-yong-ban-fa/">
+        </link>
+        <updated>2021-03-03T03:26:35.000Z</updated>
+        <content type="html"><![CDATA[<p>之前写的文章<a href="https://sprswa.github.io/post/wo-de-xie-zuo-liu-cheng/">我的写作流程</a>提到过 zotpick-applescript脚本来插入引用，但最近换了M1的Macbook Pro后，不知道什么原因不能用了，所以改用下面的方法。</p>
+<p>使用软件：</p>
+<p><a href="https://www.literatureandlatte.com/scrivener/overview">Scrivener</a> - 写作</p>
+<p><a href="https://www.zotero.org/">Zotero</a> - 文献管理</p>
+<p><a href="https://raphaelkabo.com/blog/introducing-docdown/">DocDown</a> - Markdow转Word</p>
+<ol>
+<li>在Zotero的“首选项-引用”的默认公式选择“Better BibTeX Citation Quick Copy&quot;。</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/sprswa/Pic/master/img/_Users_harvey_OneDrive_Zettelkasten_Attachment_%E6%88%AA%E5%B1%8F2021-02-05%20%E4%B8%8B%E5%8D%885.34.37.png" alt="" loading="lazy"></figure>
+<ol start="2">
+<li>
+<p>在Scrivener中写作。</p>
+<ol>
+<li>写作过程中需要引用时，打开Zotero找到需要的文献，使用“⌘+⇧+C”复制（或者拖动该文献）到需要Scrivener中插入文献的位置，得到类似“@rothenberg2020” 的引用格式。</li>
+<li>写作完成后，在Scrivener中编译该文章：打开“文件- 编译”，编译为MultiMarkdown的英文格式。<br>
+<img src="https://raw.githubusercontent.com/sprswa/Pic/master/img/_Users_harvey_OneDrive_Zettelkasten_Attachment_%E6%88%AA%E5%B1%8F2021-02-05%20%E4%B8%8B%E5%8D%885.40.51.png" alt="" loading="lazy"></li>
+</ol>
+</li>
+<li>
+<p>使用DocDown转化上述MarkDown文件。</p>
+</li>
+</ol>
+<blockquote>
+<p>在DocDown的设置中可以选择引用的格式和导出Word文档的模版。<br>
+<img src="https://raw.githubusercontent.com/sprswa/Pic/master/img/_Users_harvey_OneDrive_Zettelkasten_Attachment_%E6%88%AA%E5%B1%8F2021-02-05%20%E4%B8%8B%E5%8D%885.43.57.png" alt="" loading="lazy"></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在Zotero中使用Sci-Hub下载文献]]></title>
+        <id>https://sprswa.github.io/post/zai-zotero-zhong-shi-yong-sci-hub-xia-zai-wen-xian/</id>
+        <link href="https://sprswa.github.io/post/zai-zotero-zhong-shi-yong-sci-hub-xia-zai-wen-xian/">
+        </link>
+        <updated>2020-05-15T15:56:53.000Z</updated>
+        <content type="html"><![CDATA[<p>参考文章：<a href="https://iseex.github.io/2020-03/zotero-scihub/">Zotero搭配Sci-Hub，真香！</a></p>
+<p>Sci-Hub最新可用网址：<a href="https://iseex.github.io/scihub/">https://iseex.github.io/scihub/</a></p>
+<p>写作本文时（5/15/2020）可用的Sci-Hub网址：</p>
+<p>​					<a href="https://sci-hub.ren/">https://sci-hub.ren/</a></p>
+<p>​                    <a href="https://sci-hub.shop/">https://sci-hub.shop/</a></p>
+<blockquote>
+<p>如果你没有使用任何代理，由于网络环境问题，可能会有少部分从Sci-Hub下载的PDF出现损害的情况，这时你可以考虑将上述代码中的<code>https</code>改为<code>http</code>，或者更换其他可用的域名，情况可能会好转。另外，可以逛逛<a href="https://zhuanlan.zhihu.com/p/112141757">知乎的评论区</a>，讨论的人还蛮多，说不从会有其他网友贡献更多好的办法。</p>
+</blockquote>
+<p>在Zotero中使用Sci-Hub下载文献的pdf，本文主要介绍两种方法，并且这两种方法可同时使用。</p>
+<h3 id="方法一将sci-hub配置为pdf解析器">方法一：将Sci-Hub配置为PDF解析器</h3>
+<p>配置好后，相当于使用Sci-Hub替代默认的Unpaywall，然后在需要下载pdf的条目上右键选择“找到可用的PDF”来使用Sci-Hub下载文献。</p>
+<img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200515233018.jpg" alt="00831rSTly1gco4zvgy6dj30hs0dkta7" style="zoom: 50%;" />
+<h4 id="将sci-hub配置为pdf解析器步骤">将Sci-Hub配置为PDF解析器步骤</h4>
+<ol>
+<li>打开Zotero的首选项，进入 <code>Advanced--&gt;Config Editor</code>。</li>
+</ol>
+<img src="https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20200415094411.png" alt="20200415094411" style="zoom:50%;" />
+<ol start="2">
+<li>
+<p>搜索  <code>extensions.zotero.findPDFs.resolvers</code>，如下：</p>
+<img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200515233346.png" alt="20200415094458"  />
+</li>
+<li>
+<p>双击  <code>extensions.zotero.findPDFs.resolvers</code>，默认情况下是只有一对<code>[]</code>。</p>
+</li>
+</ol>
+<img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200515233449.png" alt="20200415094558"  />
+<ol start="4">
+<li>
+<p>删除<code>[]</code>，并将以下代码粘贴进去，然后点击OK。</p>
+<pre><code>{
+    &quot;name&quot;:&quot;Sci-Hub&quot;,
+    &quot;method&quot;:&quot;GET&quot;,
+    &quot;url&quot;:&quot;https://sci-hub.ren/{doi}&quot;,
+    &quot;mode&quot;:&quot;html&quot;,
+    &quot;selector&quot;:&quot;#pdf&quot;,
+    &quot;attribute&quot;:&quot;src&quot;,
+    &quot;automatic&quot;:true
+}
+</code></pre>
+</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200515233720.png" alt="20200415094635" loading="lazy"></figure>
+<p>到此就成功将Sci-Hub配置为PDF解析器了，也就是说替代了默认的Unpaywall。</p>
+<p>现在，无需重启Zotero，即可调用Sci-Hub免费下载文献了。</p>
+<p>这里顺便提三点：</p>
+<ol>
+<li>在<code>&quot;url&quot;:&quot;https://sci-hub.ren/{doi}&quot;</code>中，目前可用的域名有<code>.tw</code>、<code>.ren</code>、<code>.si</code>、<code>.shop</code>，大家可以挑选其中一个，哪个用起来体验更好就用哪个。（当然，由于Sci-Hub经常更换域名，保不准改天哪个域名就挂了，或者有新的域名出来，因此此处的代码未来也会根据需要进行更新）</li>
+<li>从<code>&quot;url&quot;:&quot;https://sci-hub.ren/{doi}&quot;</code>还能看到一点。由于Sci-Hub是通过<code>doi</code>下载文献的，因此该PDF解析器也需要doi。也就说你的文献必须要有doi，如果doi是空缺的，便无法通过PDF解析器免费下载文献。幸运的是，对于缺失doi的文献，我们可以通过插件<a href="https://github.com/bwiernik/zotero-shortdoi/releases">zotero-shortdoi</a>插件一键抓取doi（参考文章<a href="https://mp.weixin.qq.com/s/9UAMrbfHKnmG4tZ7rvnnGA">zotero-shortdoi + Sci-Hub，让99%的文献都能被免费下载！</a>）。</li>
+<li><code>&quot;automatic&quot;:true</code>，如果设置为true，Zotero会自动下载保存到Zotero中的文献的PDF。比如你用Zotero Connector保存了一些文献到Zotero，它便会自动帮你从Sci-Hub下载文献，并附在相应文献条目下。如果你不需要自动下载，可以设置为<code>&quot;automatic&quot;:false</code>。</li>
+</ol>
+<h3 id="方法二使用插件-zotero-scihub">方法二：使用插件 <a href="https://github.com/ethanwillis/zotero-scihub">Zotero Scihub</a></h3>
+<ol>
+<li>安装该插件。</li>
+<li>从新打开Zotero。</li>
+<li>在Zotero的首选项中多了一个选项卡：Zotero Scihub。在该选项卡中填入可用的Scihub网址。<img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200515234503.png" alt="截屏2020-05-15 下午11.44.53" loading="lazy"></li>
+<li>在需要下载pdf的条目点击右键，选择右键菜单中的“Update Scihub PDF”。</li>
+</ol>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200515234615.png" alt="截屏2020-05-15 下午11.46.08" loading="lazy"></figure>
+<p>如同方法一中所说，需要下载pdf的文献必须要有doi，如果doi是空缺的，便无法通过Scihub免费下载文献。</p>
+<blockquote>
+<p>上列两种方法下载pdf的速度取决于网络的速度。若想获得更好的下载速度，建议在加速器中使用全局代理模式，而不是PAC模式。下载完文献，记得切回到PAC模式，因为全局模式下Zotero无法同步文献到坚果云。</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在Mac上使用Popclip实现沙拉词典响应浏览器外划词翻译]]></title>
         <id>https://sprswa.github.io/post/zai-mac-shang-shi-yong-popclip-shi-xian-sha-la-ci-dian-xiang-ying-liu-lan-qi-wai-hua-ci-fan-yi/</id>

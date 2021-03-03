@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>在Mac上使用Popclip实现沙拉词典响应浏览器外划词翻译 | C言C语</title>
+<title>使用Scrivener写作时文献引用办法 | C言C语</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,18 +18,11 @@
 
 
 
-    <meta name="description" content="Saladict 沙拉查词官网
-参考文章：https://github.com/crimx/ext-saladict/issues/463
-
-
-安装 Popclip
-
-
-安装沙拉查词的Popclip的 扩展
-
-
-为Edge或者Chrome安..." />
-    <meta name="keywords" content="Mac,英语学习" />
+    <meta name="description" content="之前写的文章我的写作流程提到过 zotpick-applescript脚本来插入引用，但最近换了M1的Macbook Pro后，不知道什么原因不能用了，所以改用下面的方法。
+使用软件：
+Scrivener - 写作
+Zotero - 文献管..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -100,59 +93,45 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">在Mac上使用Popclip实现沙拉词典响应浏览器外划词翻译</h2>
-            <div class="post-date">2020-05-13</div>
+            <h2 class="post-title">使用Scrivener写作时文献引用办法</h2>
+            <div class="post-date">2021-03-03</div>
             
             <div class="post-content" v-pre>
-              <p><a href="https://saladict.crimx.com/">Saladict 沙拉查词官网</a></p>
-<p>参考文章：<a href="https://github.com/crimx/ext-saladict/issues/463">https://github.com/crimx/ext-saladict/issues/463</a></p>
+              <p>之前写的文章<a href="https://sprswa.github.io/post/wo-de-xie-zuo-liu-cheng/">我的写作流程</a>提到过 zotpick-applescript脚本来插入引用，但最近换了M1的Macbook Pro后，不知道什么原因不能用了，所以改用下面的方法。</p>
+<p>使用软件：</p>
+<p><a href="https://www.literatureandlatte.com/scrivener/overview">Scrivener</a> - 写作</p>
+<p><a href="https://www.zotero.org/">Zotero</a> - 文献管理</p>
+<p><a href="https://raphaelkabo.com/blog/introducing-docdown/">DocDown</a> - Markdow转Word</p>
 <ol>
+<li>在Zotero的“首选项-引用”的默认公式选择“Better BibTeX Citation Quick Copy&quot;。</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/sprswa/Pic/master/img/_Users_harvey_OneDrive_Zettelkasten_Attachment_%E6%88%AA%E5%B1%8F2021-02-05%20%E4%B8%8B%E5%8D%885.34.37.png" alt="" loading="lazy"></figure>
+<ol start="2">
 <li>
-<p>安装 <a href="https://pilotmoon.com/popclip/">Popclip</a></p>
-</li>
-<li>
-<p>安装沙拉查词的Popclip的 <a href="x-devonthink-item://1B75B7E1-F67A-4B48-AF7D-146F097FF2ED">扩展</a></p>
-</li>
-<li>
-<p>为Edge或者Chrome安装沙拉查词的<a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg?hl=zh-CN">扩展程序</a></p>
-</li>
-<li>
-<p>设置沙拉查词全局快捷键。为了实现在浏览器外调用沙拉查词，需要在浏览器内为沙拉查词设置全局快捷键。</p>
+<p>在Scrivener中写作。</p>
 <ol>
-<li>
-<p>在浏览器地址栏输入 <code>edge://extensions/shortcuts</code>，进入快捷键设置界面。找到沙拉查词中的“在独立窗口中搜索剪贴板内容”，设置快捷键（建议设置为Control+P），并选择全局。</p>
-</li>
-<li>
-<p>在沙拉查词的设置中如下设置：</p>
-<img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200513203539.png" style="zoom:33%;" />
-</li>
+<li>写作过程中需要引用时，打开Zotero找到需要的文献，使用“⌘+⇧+C”复制（或者拖动该文献）到需要Scrivener中插入文献的位置，得到类似“@rothenberg2020” 的引用格式。</li>
+<li>写作完成后，在Scrivener中编译该文章：打开“文件- 编译”，编译为MultiMarkdown的英文格式。<br>
+<img src="https://raw.githubusercontent.com/sprswa/Pic/master/img/_Users_harvey_OneDrive_Zettelkasten_Attachment_%E6%88%AA%E5%B1%8F2021-02-05%20%E4%B8%8B%E5%8D%885.40.51.png" alt="" loading="lazy"></li>
 </ol>
 </li>
 <li>
-<p>在打开（或后台运行）Edge浏览器的情况下，在Edge浏览器以外的任意位置选中文字并点击Popclip弹窗中的沙拉查词Logo后，出现沙拉查词面板。</p>
+<p>使用DocDown转化上述MarkDown文件。</p>
 </li>
 </ol>
+<blockquote>
+<p>在DocDown的设置中可以选择引用的格式和导出Word文档的模版。<br>
+<img src="https://raw.githubusercontent.com/sprswa/Pic/master/img/_Users_harvey_OneDrive_Zettelkasten_Attachment_%E6%88%AA%E5%B1%8F2021-02-05%20%E4%B8%8B%E5%8D%885.43.57.png" alt="" loading="lazy"></p>
+</blockquote>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://sprswa.github.io/tag/qwtckgcBK/" class="tag">
-                    Mac
-                  </a>
-                
-                  <a href="https://sprswa.github.io/tag/SPX9CxFrE/" class="tag">
-                    英语学习
-                  </a>
-                
-              </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://sprswa.github.io/post/jie-jue-kan-ying-wen-youtube-shi-pin-shi-de-sheng-ci-wen-ti/">
+                <a href="https://sprswa.github.io/post/zai-zotero-zhong-shi-yong-sci-hub-xia-zai-wen-xian/">
                   <h3 class="post-title">
-                    解决看英文YouTube视频时的生词问题
+                    在Zotero中使用Sci-Hub下载文献
                   </h3>
                 </a>
               </div>
