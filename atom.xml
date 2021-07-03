@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sprswa.github.io</id>
     <title>C言C语</title>
-    <updated>2021-07-02T07:03:28.683Z</updated>
+    <updated>2021-07-03T07:21:49.446Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sprswa.github.io"/>
     <link rel="self" href="https://sprswa.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://sprswa.github.io/images/avatar.png</logo>
     <icon>https://sprswa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, C言C语</rights>
+    <entry>
+        <title type="html"><![CDATA[使用Keyboard maestro快捷获得文件的Markdown格式的链接]]></title>
+        <id>https://sprswa.github.io/post/shi-yong-keyboard-maestro-kuai-jie-huo-de-wen-jian-de-markdown-ge-shi-de-lian-jie/</id>
+        <link href="https://sprswa.github.io/post/shi-yong-keyboard-maestro-kuai-jie-huo-de-wen-jian-de-markdown-ge-shi-de-lian-jie/">
+        </link>
+        <updated>2021-07-03T07:17:38.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>安装Keyboard maestro</li>
+<li>下载script<br>
+<a href="https://forum.keyboardmaestro.com/t/copy-as-markdown-link/20442">Copy as Markdown Link - Macro Library - Keyboard Maestro Discourse</a></li>
+<li>双击导入下载好的script</li>
+<li>在Keyboard maestro中选择“MD Link tools”，右键选择 “Enable Macro Group&quot;</li>
+<li>修改“Copy as Markdown link“的快捷键为”⌃⌥⌘M&quot;，原来默认是”⌥⌘M&quot;，和Mac最小化窗口快捷键有冲突<br>
+<img src="https://sprswa.github.io/post-images/1625296797388.png" alt="" loading="lazy"></li>
+<li>在Devonthink等软件中，要获得文件的Markdown格式的链接就按上述快捷键获得</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用Scrivener写作时文献引用办法]]></title>
         <id>https://sprswa.github.io/post/shi-yong-scrivener-xie-zuo-shi-wen-xian-yin-yong-ban-fa/</id>
@@ -344,19 +362,6 @@ end if
 打开坚果云官网，登录坚果云账号，在zotero文件夹下新建空白的lastsync.txt文件。<br>
 务必注意的是，必须使用坚果云自带的新建文本文档工具来建立lastsync.txt文件，不能通过手动上传的方式。</p>
 <p><a href="https://mp.weixin.qq.com/s/b2kuoqPqEYOGb9i_cvFa4Q">参考文章</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[尝试使用Gridea写博客]]></title>
-        <id>https://sprswa.github.io/post/chang-shi-shi-yong-gridea-xie-bo-ke/</id>
-        <link href="https://sprswa.github.io/post/chang-shi-shi-yong-gridea-xie-bo-ke/">
-        </link>
-        <updated>2020-02-17T02:52:15.000Z</updated>
-        <content type="html"><![CDATA[<p>工具：Grdea<br>
-网站：https://gridea.dev/<br>
-将站点源文件路径改为onedrive中的文件夹：<br>
-<img src="https://sprswa.github.io/post-images/1586615171601.png" alt="" loading="lazy"></p>
-<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/sprswa/PicGo/master/img/20200217105447.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
